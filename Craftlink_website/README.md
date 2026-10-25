@@ -1,15 +1,12 @@
-# CraftLink – Phân hệ Người sáng tạo & Nghệ nhân (Maker / Seller - SV2)
+# CraftLink – Phân hệ Quản trị viên Nền tảng (Admin - SV3)
 
-Nhánh này chỉ chứa mã nguồn dành riêng cho vai trò **Nghệ nhân (Maker)**:
+Nhánh này chỉ chứa mã nguồn dành riêng cho vai trò **Quản trị viên (Admin)**:
 
 ## 📁 Danh sách màn hình đã triển khai:
-- `seller/dashboard.html`: Bảng điều khiển Xưởng chế tác, KPI doanh thu & đơn hàng
-- `seller/brief-inbox.html`: Hộp Brief nhận được từ khách hàng (Tích hợp AI Style Matcher)
-- `seller/proposal-editor.html`: Trình soạn Đề xuất & Báo giá chế tác (Tích hợp AI Revision Summarizer)
-- `seller/products.html`: Quản lý danh mục sản phẩm (Listing)
-- `seller/product-form.html`: Đăng bán tác phẩm mới & gửi hàng đợi kiểm duyệt
-- `seller/orders.html` & `seller/order-detail.html`: Quản lý tiến độ đơn hàng
-- `seller/revenue.html`: Báo cáo doanh thu & thù lao công bằng WFTO
+- `admin/index.html` hoặc `admin/pages/admin-platform-dashboard.html`: Bảng điều khiển nền tảng, KPI doanh thu, biểu đồ giao dịch & ghi đè tranh chấp
+- `admin/pages/admin-category-management.html`: Quản lý Danh mục di sản & cây Taxonomy thủ công
+- `admin/pages/admin-user-management.html`: Quản lý Tài khoản thành viên, phân quyền Buyer / Maker / Mod / Admin
+- `admin/login.html` hoặc `admin/pages/login.html`: Cổng đăng nhập quản trị tập trung
 
 ## 🚀 Cách chạy thử nghiệm:
-Mở trực tiếp tệp `seller/dashboard.html` trên trình duyệt web.
+Mở trực tiếp tệp `admin/index.html` hoặc `admin/pages/admin-platform-dashboard.html` trên trình duyệt web.
